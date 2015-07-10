@@ -760,12 +760,6 @@ CREATE TABLE IF NOT EXISTS `lb_sys_accounts` (
   `account_status` tinyint(1) NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
---
--- Dumping data for table `lb_sys_accounts`
---
-
-INSERT INTO `lb_sys_accounts` (`account_id`, `account_email`, `account_password`, `account_created_date`, `account_timezone`, `account_language`, `account_status`) VALUES
-(1, 'thongnv@linxhq.com', '$2a$13$qpeEkJRJxEX9EKyWqQZHC.2IAoGyhhWlSWtnavgROUk98Tp0UPODy', '2015-06-15 04:15:17', NULL, NULL, 1);
 
 -- --------------------------------------------------------
 
